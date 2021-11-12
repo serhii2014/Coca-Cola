@@ -27,7 +27,7 @@
     
       <header class="header wrapper">
           <!-- Top-Menu -->
-          <section class="top-menu">
+          <section class="top-menu navigation">
               <!-- Logo -->
               <a class="logo" href="#">
                   <img src="./img/coca-cola_logo_white.png" alt="Coca-Cola_logo_white">
@@ -35,10 +35,10 @@
               <!-- Navbar -->
               <nav class="navbar">
                   <ul class="navbar_links">
-                      <li><a href="#" class="btn-flip" data-back="main" data-front="main"></a></li>
-                      <li><a href="#" class="btn-flip" data-back="contacts" data-front="about"></a></li>
-                      <li><a href="#" class="btn-flip" data-back="products" data-front="products"></a></li>
-                      <li><a href="#" class="btn-flip" data-back="about" data-front="contacts"></a></li>
+                      <li><a href="#main" class="scroll btn-flip" data-back="main" data-front="main"></a></li>
+                      <li><a href="#presents" class=" scroll btn-flip" data-back="presents" data-front="presents"></a></li>
+                      <li><a href="#contacts" class="scroll btn-flip" data-back="contacts" data-front="contacts"></a></li>
+                      <!-- <li><a href="#" class="btn-flip" data-back="about" data-front="contacts"></a></li> -->
                   </ul>
               </nav>
               <!-- Navbar burger -->
@@ -47,10 +47,10 @@
               </button>
               <nav class="nav_burger">
                   <ul class="nav_links">
-                      <li><a href="#">home</a></li>
-                      <li><a href="#">about</a></li>
-                      <li><a href="#">products</a></li>
-                      <li><a href="#">contacts</a></li>
+                      <li><a href="">main</a></li>
+                      <li><a href="">presents</a></li>
+                      <li><a href="">contacts</a></li>
+                      <!-- <li><a href="contacts">contacts</a></li> -->
                   </ul>
               </nav>
           </section>
@@ -60,7 +60,7 @@
   <div class="drop_wrapper">
   
       <!-- Main -->
-      <main class="main row wrapper">
+      <main class="main row wrapper" id="main">
           <div class="box_title col-md-6">
               <h1 class="title_main">main site title</h1>
               <span class="title_description">Lorem ipsum descripsum</span>
@@ -88,7 +88,7 @@
   
       <!-- Presents -->
       
-      <section class="presents_bg ">
+      <section class="presents_bg" id="presents">
           <div class=" presents wrapper row">
       
               <!-- Tab Container -->
@@ -148,7 +148,7 @@
   
   </div>
   <!-- Form Footer -->
-  <section class="form_footer-bg">
+  <section class="form_footer-bg" id="contacts">
       <div class="form-box wrapper">
           <form class="form" id="contact-form" method="post" action="contact.php" role="form">
               <h2 class="title_form-footer">Write us for real presents</h2>
@@ -213,7 +213,8 @@
     crossorigin="anonymous"></script>
 
   <!-- JQuery library -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
   <!-- Particles Drops Js -->
   <script src="./js/particles.min.js"></script>
