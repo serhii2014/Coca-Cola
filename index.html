@@ -21,206 +21,218 @@
 </head>
 
 <body class="body_bg">
-  <!-- Particles Drops-->
-  <div id="particles-js"></div>
-  <div class="scroll_wrapper">
-    <!-- Header -->
+   
+  <!-- Header -->
+    
+      <header class="header wrapper ">
+          <!-- Top-Menu -->
+          <section class="top-menu navigation">
+              <!-- Logo -->
+              <a class="logo" href="#">
+                  <img src="./img/coca-cola_logo_white.png" alt="Coca-Cola_logo_white">
+              </a>
+              <!-- Navbar -->
+              <nav class="navbar">
+                  <ul class="navbar_links">
+                      <li><a href="#" class="scroll btn-flip" data-back="main" data-front="main"></a></li>
+                      <li><a href="#" class=" scroll btn-flip" data-back="presents" data-front="presents"></a></li>
+                      <li><a href="#" class="scroll btn-flip" data-back="contacts" data-front="contacts"></a></li>
+                      <!-- <li><a href="#" class="btn-flip" data-back="about" data-front="contacts"></a></li> -->
+                  </ul>
+              </nav>
+              <!-- Navbar burger -->
+              <button class="nav-tgl" type="button" aria-label="toggle menu">
+                  <span aria-hidden="true"></span>
+              </button>
+              <nav class="nav_burger">
+                  <ul class="nav_links">
+                      <li><a href="">main</a></li>
+                      <li><a href="">presents</a></li>
+                      <li><a href="">contacts</a></li>
+                      <!-- <li><a href="contacts">contacts</a></li> -->
+                  </ul>
+              </nav>
+          </section>
+      </header>
+  <!-- Drop Wrapper -->
+  
+  <div class="drop_wrapper">
+  
+      <!-- Main -->
       
-        <header class="header wrapper">
-            <!-- Top-Menu -->
-            <section class="top-menu navigation">
-                <!-- Logo -->
-                <a class="logo" href="#">
-                    <img src="./img/coca-cola_logo_white.png" alt="Coca-Cola_logo_white">
-                </a>
-                <!-- Navbar -->
-                <nav class="navbar">
-                    <ul class="navbar_links">
-                        <li><a href="#main" class="scroll btn-flip" data-back="main" data-front="main"></a></li>
-                        <li><a href="#presents" class=" scroll btn-flip" data-back="presents" data-front="presents"></a></li>
-                        <li><a href="#contact-form" class="scroll btn-flip" data-back="contacts" data-front="contacts"></a></li>
-                        <!-- <li><a href="#" class="btn-flip" data-back="about" data-front="contacts"></a></li> -->
-                    </ul>
-                </nav>
-                <!-- Navbar burger -->
-                <button class="nav-tgl" type="button" aria-label="toggle menu">
-                    <span aria-hidden="true"></span>
-                </button>
-                <nav class="nav_burger">
-                    <ul class="nav_links">
-                        <li><a href="">main</a></li>
-                        <li><a href="">presents</a></li>
-                        <li><a href="">contacts</a></li>
-                        <!-- <li><a href="contacts">contacts</a></li> -->
-                    </ul>
-                </nav>
-            </section>
-        </header>
-    <!-- Drop Wrapper -->
-    
-    <div class="drop_wrapper">
-    
-        <!-- Main -->
-        <section id="main" class="main_bg wrapper">
-            <main class="main row ">
-                <div class="box_title col-md-6">
-                    <h1 class="title_main">main site title</h1>
-                    <span class="title_description">Lorem ipsum descripsum</span>
-                    <button type="button" class="btn btn-outline-light btn_radius btn-title">Call to action</button>
-                    <div class="box_img-arrow"><img src="./img/arrow.png" width="32" height="38" alt="arrow"></div>
-                </div>
-                <div class="box_img-santa col-md-6">
-                    <div class="box_img-cloud">
-                        <img src="./img/cloud.png" width="265" height="190" alt="">
-                        <p class="cloud_text">
-                            How how how !!! <br/>
-                            Like it? <br/>
-                            Scroll down for more !
-                        </p>
-                        
-                    </div>
-                    <img class="santa_img" src="./img/santa.png" width="880" height="580" alt="Santa">
-                </div>
-            </main>
-        </section>
-    
-        <!-- Drop Box -->
-        <div class="drop_box">
-            <img class="drop" src="./img/drop.png" width="448" height="448" alt="drop">
-        </div>
-    
-        <!-- Presents -->
-        <section class="presents_bg">
-            <div class=" presents wrapper row" >
-                <!-- Tab Container -->
-                <div class="tab-container p-0 col-xl-6">
-                    <h2 id="presents" class="title_presents">At least somewhere you can feel new year atmosphere</h2>
-                    <h4 class="title_tab_container">Choose your present:</h4>
-                    <ul class="tab-head row p-0">
-                        <li class="tab-icon active" data-target="first-tab-content"><img src="./img/new-year-sock.png"
-                                width="70" height="120" alt="sock">
-                        </li>
-                        <li class="tab-icon" data-target="second-tab-content"><img src="./img/caps.png" width="123" height="93"
-                                alt="caps"></li>
-                        <li class="tab-icon" data-target="third-tab-content"><img src="./img/new-year-bag.png" width="94"
-                                height="100" alt="bag"></li>
-                    </ul>
-                </div>
-                <!-- Presents Box Description -->
-                <div class="presents_box-description p-0 col-xl-6">
-                    <div class="tab-item active" id="first-tab-content">
-                        <div class="tab_title-box">
-                            <h2 class="tab_title">Best sock ever</h2>
-                            <p>Reuglar sock have no present inside
-                                Lorem Ipsum is simply dumm y text of the printing and types etting
-                                industry. Lorem</p>
-                        </div>
-                        <div class="presents_box-img">
-                            <img src="./img/new-year-sock.png" alt="" width="148" height="256">
-                        </div>
-                    </div>
-                    <div class="tab-item" id="second-tab-content">
-                        <div class="tab_title-box">
-                            <h2 class="tab_title">Best caps ever</h2>
-                            <p>Reuglar caps have no present inside
-                                Lorem Ipsum is simply dumm y text of the printing and types etting
-                                industry. Lorem</p>
-                        </div>
-                        <div class="presents_box-img">
-                            <img src="./img/caps.png" alt="" width="180" height="140">
-                        </div>
-                    </div>
-                    <div class="tab-item" id="third-tab-content">
-                        <div class="tab_title-box">
-                            <h3 class="tab_title">Best bag ever</h3>
-                            <p>Reuglar bag have no present inside
-                                Lorem Ipsum is simply dumm y text of the printing and types etting
-                                industry. Lorem</p>
-                        </div>
-                        <div class="presents_box-img">
-                            <img src="./img/new-year-bag.png" alt="" width="148" height="160">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        
-        </section>
-    
-    </div>
-    <!-- Form Footer -->
-    <section class="form_footer-bg">
-        <div class="form-box wrapper">
-            <form class="form" id="contact-form" method="post" action="contact.php" role="form">
-                <h2 class="title_form-footer">Write us for real presents</h2>
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <input class="custom-st" id="form_name" type="text" name="name" class="form-control"
-                                placeholder="Name" required="required" data-error="Firstname is required.">
-                            <div class="help-block with-errors"></div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <input class="custom-st" id="form_phone" type="tel" name="phone" class="form-control"
-                                placeholder="Phone">
-                            <div class="help-block with-errors"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <select class="select" name="Gender">
-                                <option disabled>Gender</option>
-                                <option value="Boy">Boy</option>
-                                <option value="Girl">Girl</option>
-                            </select>
-                            <div class="help-block with-errors"></div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <input class="custom-st" id="form_email" type="email" name="email" class="form-control"
-                                placeholder="Email" required="required" data-error="Valid email is required.">
-                            <div class="help-block with-errors"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12 textarea_box">
-                        <div class="form-group">
-                            <textarea class="custom-textarea custom-st" id="form_message" name="message"
-                                class="form-control" placeholder="Your witsh" rows="4" required="required"
-                                data-error="Please,leave us a message."></textarea>
-                            <div class="help-block with-errors"></div>
-                        </div>
-                    </div>
-                    <div class="custom-control custom-checkbox mb-3">
-                        <input type="checkbox" class="custom-control-input" id="customCntrolValidation1" required>
-                        <label class="custom-control-label" for="customControlValidation1">Whant Coca-cola with
-                            present ?</label>
-                    </div>
-                </div>
-            </form>
-        </div>
-    
-    </section>
+      <section id="main" class="main_bg wrapper"> 
+          <main class="main row ">
+              <div class="box_title col-md-6">
+                  <h1 class="title_main">main site title</h1>
+                  <span class="title_description">Lorem ipsum descripsum</span>
+                  <button type="button" class="btn btn-outline-light btn_radius btn-title">Call to action</button>
+                  <div class="box_img-arrow"><img src="./img/arrow.png" width="32" height="38" alt="arrow"></div>
+              </div>
+              <div class="box_img-santa col-md-6">
+                  <div class="box_img-cloud">
+                      <img src="./img/cloud.png" width="265" height="190" alt="">
+                      <p class="cloud_text">
+                          How how how !!! <br/>
+                          Like it? <br/>
+                          Scroll down for more !
+                      </p>
+                      
+                  </div>
+                  <img class="santa_img" src="./img/santa.png" width="880" height="580" alt="Santa">
+              </div>
+          </main>
+      </section>
+  
+      <!-- Drop Box -->
+      <div class="drop_box">
+          <img class="drop" src="./img/drop.png" width="448" height="448" alt="drop">
+      </div>
+  
+      <!-- Presents -->
+      
+      <section  class="presents_bg">
+         
+          <div class=" presents wrapper row" >
+      
+              <!-- Tab Container -->
+              <div class="tab-container p-0 col-xl-6">
+                  <h2 id="presents" class="title_presents">At least somewhere you can feel new year atmosphere</h2>
+                  <h4 class="title_tab_container">Choose your present:</h4>
+                  <ul class="tab-head row p-0">
+                      <li class="tab-icon active" data-target="first-tab-content"><img src="./img/new-year-sock.png"
+                              width="70" height="120" alt="sock">
+                      </li>
+                      <li class="tab-icon" data-target="second-tab-content"><img src="./img/caps.png" width="123" height="93"
+                              alt="caps"></li>
+                      <li class="tab-icon" data-target="third-tab-content"><img src="./img/new-year-bag.png" width="94"
+                              height="100" alt="bag"></li>
+                  </ul>
+              </div>
+      
+              <!-- Presents Box Description -->
+              <div class="presents_box-description p-0 col-xl-6">
+                  <div class="tab-item active" id="first-tab-content">
+                      <div class="tab_title-box">
+                          <h2 class="tab_title">Best sock ever</h2>
+                          <p>Reuglar sock have no present inside
+                              Lorem Ipsum is simply dumm y text of the printing and types etting
+                              industry. Lorem</p>
+                      </div>
+                      <div class="presents_box-img">
+                          <img src="./img/new-year-sock.png" alt="" width="148" height="256">
+                      </div>
+                  </div>
+                  <div class="tab-item" id="second-tab-content">
+                      <div class="tab_title-box">
+                          <h2 class="tab_title">Best caps ever</h2>
+                          <p>Reuglar caps have no present inside
+                              Lorem Ipsum is simply dumm y text of the printing and types etting
+                              industry. Lorem</p>
+                      </div>
+                      <div class="presents_box-img">
+                          <img src="./img/caps.png" alt="" width="180" height="140">
+                      </div>
+                  </div>
+                  <div class="tab-item" id="third-tab-content">
+                      <div class="tab_title-box">
+                          <h3 class="tab_title">Best bag ever</h3>
+                          <p>Reuglar bag have no present inside
+                              Lorem Ipsum is simply dumm y text of the printing and types etting
+                              industry. Lorem</p>
+                      </div>
+                      <div class="presents_box-img">
+                          <img src="./img/new-year-bag.png" alt="" width="148" height="160">
+                      </div>
+                  </div>
+              </div>
+          </div>
+      
+      </section>
+  
   </div>
+  <!-- Form Footer -->
+  
+  <section class="form_footer-bg section">
+      
+      <div class="form-box wrapper">
+          <form class="form" id="contact-form" method="post" action="contact.php" role="form">
+              <h2 class="title_form-footer">Write us for real presents</h2>
+              <div class="row">
+                  <div class="col-md-6">
+                      <div class="form-group">
+                          <input class="custom-st" id="form_name" type="text" name="name" class="form-control"
+                              placeholder="Name" required="required" data-error="Firstname is required.">
+                          <div class="help-block with-errors"></div>
+                      </div>
+                  </div>
+                  <div class="col-md-6">
+                      <div class="form-group">
+                          <input class="custom-st" id="form_phone" type="tel" name="phone" class="form-control"
+                              placeholder="Phone">
+                          <div class="help-block with-errors"></div>
+                      </div>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-md-6">
+                      <div class="form-group">
+                          <select class="select" name="Gender">
+                              <option disabled>Gender</option>
+                              <option value="Boy">Boy</option>
+                              <option value="Girl">Girl</option>
+                          </select>
+                          <div class="help-block with-errors"></div>
+                      </div>
+                  </div>
+                  <div class="col-md-6">
+                      <div class="form-group">
+                          <input class="custom-st" id="form_email" type="email" name="email" class="form-control"
+                              placeholder="Email" required="required" data-error="Valid email is required.">
+                          <div class="help-block with-errors"></div>
+                      </div>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-md-12 textarea_box">
+                      <div class="form-group">
+                          <textarea class="custom-textarea custom-st" id="form_message" name="message"
+                              class="form-control" placeholder="Your witsh" rows="4" required="required"
+                              data-error="Please,leave us a message."></textarea>
+                          <div class="help-block with-errors"></div>
+                      </div>
+                  </div>
+                  <div class="custom-control custom-checkbox mb-3">
+                      <input type="checkbox" class="custom-control-input" id="customCntrolValidation1" required>
+                      <label class="custom-control-label" for="customControlValidation1">Whant Coca-cola with
+                          present ?</label>
+                  </div>
+              </div>
+          </form>
+      </div>
+  
+  </section>
+ 
+<!-- Particles Drops-->
+<div id="particles-js"></div>
   <!-- Bootstrap library -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
     crossorigin="anonymous"></script>
 
+
   <!-- JQuery library -->
-  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
   <!-- Particles Drops Js -->
   <script src="./js/particles.min.js"></script>
 
+  <script src="./js/jquery.easings.min.js"></script>
+  <script src="./js/scrolloverflow.min.js"></script>
+  <script src="./js/jquery.fullPage.min.js"></script>
+
   <!-- Custom Js -->
   <script src="./js/custom.min.js"></script>
+
 
 </body>
 
